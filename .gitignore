@@ -6,6 +6,11 @@
 
 /build
 /dist
+/gulp
+
+.gitignore
+.gitattributes
+.gulpfile.js
 
 .DS_Store
 .env.local
