@@ -4,11 +4,8 @@
    "description": "",
    "main": "index.js",
    "type": "module",
-   "homepage": "https://nert1n.github.io/Growfy-site",
    "scripts": {
-   	 "predeploy": "npm run build",
-	 "deploy": "gh-pages -d build"
-      "dev": "gulp",
+      "start": "gulp",
       "build": "gulp build --build",
       "zip": "gulp deployZIP --build",
       "deploy": "gulp deployFTP --build",
