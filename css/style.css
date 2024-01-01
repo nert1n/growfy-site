@@ -1,10 +1,10 @@
-@import url(css/base/fonts.css);
+@import url(base/fonts.css);
 
-@import url(css/base/nule.css);
+@import url(base/nule.css);
 
-@import url(css/base/header.css);
+@import url(base/header.css);
 
-@import url(css/base/footer.css);
+@import url(base/footer.css);
 
 * {
   font-family: "Poppins", sans-serif;
