@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
    <meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="img/logo.svg" type="image/svg" />
-<link rel="stylesheet" href="css/main.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="/img/logo.svg" type="image/svg" />
+<link rel="stylesheet" href="/css/style.css?_v=20240101200220" />
 <title>Growfy</title>
 </head>
 
@@ -14,31 +13,33 @@
    <header class="header">
    <div class="container">
       <div class="header__holder">
-         <div class="header__name name">
-            <img class="name__logo" src="img/logo.svg" alt="">
-            <a href="/main" class="name__text">Growfy</a>
+         <div class="header__left">
+            <img class="header__logo" src="img/logo.svg" alt="Logo">
+            <a class="header__name" href="/">Growfy</a>
          </div>
-         <div class="header__nav nav">
-            <ul class="header__bar bar">
-               <li class="bar__text"><a href="#">Home</a></li>
-               <li class="bar__text"><a href="#">About</a></li>
-               <li class="bar__text"><a href="#">Pages</a></li>
-               <li class="bar__text bar--ident"><a href="#">Services</a></li>
-               <li class="bar__text bar--number"><a href="#">Cart </a><span>0</span></li>
+         <div class="nav">
+            <ul class="nav__bar">
+               <li class="nav__text"><a href="#home">Home</a></li>
+               <li class="nav__text"><a href="#about">About</a></li>
+               <li class="nav__text"><a href="#pages">Pages</a></li>
+               <li class="nav__text nav__text-ident"><a href="#services">Services</a></li>
+               <li class="nav__text nav__text-number"><a href="#cart">Cart </a><span>0</span></li>
+               <button class="nav__but button">Get started</button>
             </ul>
-            <button class="header__button button">Get started</button>
-            <div class="header__burger burger">
+            <button class="nav__button button">Get started</button>
+            <div class="nav__burger burger">
                <span></span>
             </div>
          </div>
       </div>
    </div>
-</header> <main class="main">
+</header>
+   <main class="main">
    <div class="container">
       <div class="main__holder">
          <section class="main__first first">
             <div class="first__text">
-               <img class="first__image" src="img/disc.svg" alt="Картинка" />
+               <img class="first__image" src="img/disc.svg" alt="disc" />
                <h2 class="first__title title">Marketing solutions that grow your business.</h2>
                <p class="first__subtitle subtitle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim
@@ -51,23 +52,23 @@
             </div>
             <div class="first__images">
                <div class="first__left left">
-                  <picture><source srcset="img/first-1.webp" type="image/webp"><img class="left__up" src="img/first-1.png" alt="Картинка" /></picture>
-                  <picture><source srcset="img/first-2.webp" type="image/webp"><img class="left__down" src="img/first-2.png" alt="Картинка" /></picture>
+                  <picture><source srcset="img/first-1.webp" type="image/webp"><img class="left__up" src="img/first-1.png" alt="Image" /></picture>
+                  <picture><source srcset="img/first-2.webp" type="image/webp"><img class="left__down" src="img/first-2.png" alt="Image" /></picture>
                </div>
                <div class="first__right right">
-                  <picture><source srcset="img/first-3.webp" type="image/webp"><img class="right__up" src="img/first-3.png" alt="Картинка" /></picture>
-                  <picture><source srcset="img/first-4.webp" type="image/webp"><img class="right__down" src="img/first-4.png" alt="Картинка" /></picture>
+                  <picture><source srcset="img/first-3.webp" type="image/webp"><img class="right__up" src="img/first-3.png" alt="Image" /></picture>
+                  <picture><source srcset="img/first-4.webp" type="image/webp"><img class="right__down" src="img/first-4.png" alt="Image" /></picture>
                </div>
             </div>
          </section>
          <section class="main__sturtups sturtups">
             <p class="sturtups__text">TRUSTED BY startups and large enterprises</p>
             <div class="sturtups__images">
-               <img class="sturtups__image" src="img/sturtup-1.svg" alt="Картинка" />
-               <img class="sturtups__image" src="img/sturtup-2.svg" alt="Картинка" />
-               <img class="sturtups__image" src="img/sturtup-3.svg" alt="Картинка" />
-               <img class="sturtups__image" src="img/sturtup-4.svg" alt="Картинка" />
-               <img class="sturtups__image" src="img/sturtup-5.svg" alt="Картинка" />
+               <img class="sturtups__image" src="img/sturtup-1.svg" alt="Image" />
+               <img class="sturtups__image" src="img/sturtup-2.svg" alt="Image" />
+               <img class="sturtups__image" src="img/sturtup-3.svg" alt="Image" />
+               <img class="sturtups__image" src="img/sturtup-4.svg" alt="Image" />
+               <img class="sturtups__image" src="img/sturtup-5.svg" alt="Image" />
             </div>
          </section>
          <section class="main__servises servises">
@@ -83,7 +84,7 @@
             <div class="servises__columnes">
                <div class="servises__columns columns columns--left">
                   <div class="columns__column column">
-                     <img class="column__icon icon" src="img/like.svg" alt="Картинка" />
+                     <img class="column__icon icon" src="img/like.svg" alt="Image" />
                      <h1 class="column__title title">Social Media Marketing</h1>
                      <p class="column__subtitle subtitle short--subtitle">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim
@@ -91,7 +92,7 @@
                      </p>
                   </div>
                   <div class="columns__column column column--down">
-                     <img class="column__icon icon" src="img/email.svg" alt="Картинка" />
+                     <img class="column__icon icon" src="img/email.svg" alt="Image" />
                      <h1 class="column__title title">Email Marketing</h1>
                      <p class="column__subtitle subtitle short--subtitle">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim
@@ -101,7 +102,7 @@
                </div>
                <div class="servises__columns columns columns--right">
                   <div class="columns__column column">
-                     <img class="column__icon icon" src="img/dollor.svg" alt="Картинка" />
+                     <img class="column__icon icon" src="img/dollor.svg" alt="Image" />
                      <h2 class="column__title title">Paid Advertising</h2>
                      <p class="column__subtitle subtitle short--subtitle">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim
@@ -109,7 +110,7 @@
                      </p>
                   </div>
                   <div class="columns__column column">
-                     <img class="column__icon icon" src="img/loop.svg" alt="Картинка" />
+                     <img class="column__icon icon" src="img/loop.svg" alt="Image" />
                      <h2 class="column__title title">SEO Optimization</h2>
                      <p class="column__subtitle subtitle short--subtitle">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim
@@ -121,9 +122,9 @@
          </section>
          <section class="main__help help">
             <div class="help__images">
-               <img class="help__disc" src="img/disc.svg" alt="Картинка" />
-               <picture><source srcset="img/girl-big.webp" type="image/webp"><img class="help__big" src="img/girl-big.png" alt="Картинка" /></picture>
-               <picture><source srcset="img/girl-small.webp" type="image/webp"><img class="help__small" src="img/girl-small.png" alt="Картинка" /></picture>
+               <img class="help__disc" src="img/disc.svg" alt="Image" />
+               <picture><source srcset="img/girl-big.webp" type="image/webp"><img class="help__big" src="img/girl-big.png" alt="Image" /></picture>
+               <picture><source srcset="img/girl-small.webp" type="image/webp"><img class="help__small" src="img/girl-small.png" alt="Image" /></picture>
             </div>
             <div class="help__text">
                <p class="help__desc desc">WHY CHOOSE US</p>
@@ -134,16 +135,16 @@
                </p>
                <ul class="help__items">
                   <li class="help__item short--subtitle">
-                     <img src="img/galka.svg" alt="Картинка" />This is some text inside of a div.
+                     <img src="img/galka.svg" alt="Image" />This is some text inside of a div.
                   </li>
                   <li class="help__item short--subtitle">
-                     <img src="img/galka.svg" alt="Картинка" />This is some text inside of a div.
+                     <img src="img/galka.svg" alt="Image" />This is some text inside of a div.
                   </li>
                   <li class="help__item short--subtitle">
-                     <img src="img/galka.svg" alt="Картинка" />This is some text inside of a div.
+                     <img src="img/galka.svg" alt="Image" />This is some text inside of a div.
                   </li>
                   <li class="help__item short--subtitle">
-                     <img src="img/galka.svg" alt="Картинка" />This is some text inside of a div.
+                     <img src="img/galka.svg" alt="Image" />This is some text inside of a div.
                   </li>
                </ul>
             </div>
@@ -183,7 +184,7 @@
                   </div>
                </div>
             </div>
-            <picture><source srcset="img/men-big.webp" type="image/webp"><img class="information__image" src="img/men-big.png" alt="Картинка" /></picture>
+            <picture><source srcset="img/men-big.webp" type="image/webp"><img class="information__image" src="img/men-big.png" alt="Image" /></picture>
          </section>
          <section class="main__clients clients">
             <div class="clients__section section">
@@ -201,7 +202,7 @@
             <div class="clients__cards">
                <div class="clients__card">
                   <div class="clients__builder bulider">
-                     <picture><source srcset="img/client-img1.webp" type="image/webp"><img class="builder__img" src="img/client-img1.png" alt="Картинка" /></picture>
+                     <picture><source srcset="img/client-img1.webp" type="image/webp"><img class="builder__img" src="img/client-img1.png" alt="Image" /></picture>
                      <div class="builder__text">
                         <p class="builder__name short--subtitle">John Doe</p>
                         <p class="builder__company">Company Name</p>
@@ -216,26 +217,26 @@
                      </p>
                      <div class="clients__stars">
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Star" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Star" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Star" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Star" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Star" />
                         </button>
                      </div>
                   </div>
                </div>
                <div class="clients__card">
                   <div class="clients__builder">
-                     <picture><source srcset="img/client-img2.webp" type="image/webp"><img class="builder__img" src="img/client-img2.png" alt="Картинка" /></picture>
+                     <picture><source srcset="img/client-img2.webp" type="image/webp"><img class="builder__img" src="img/client-img2.png" alt="Image" /></picture>
                      <div class="builder__text">
                         <p class="builder__name">Alice Smith</p>
                         <p class="builder__company">Company Name</p>
@@ -250,26 +251,26 @@
                      </p>
                      <div class="clients__stars">
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Image" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Image" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Image" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Image" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Image" />
                         </button>
                      </div>
                   </div>
                </div>
                <div class="clients__card">
                   <div class="clients__builder">
-                     <picture><source srcset="img/client-img3.webp" type="image/webp"><img class="builder__img" src="/img/client-img3.png" alt="Картинка" /></picture>
+                     <picture><source srcset="img/client-img3.webp" type="image/webp"><img class="builder__img" src="img/client-img3.png" alt="Image" /></picture>
                      <div class="builder__text">
                         <p class="builder__name">Sophia Miller</p>
                         <p class="builder__company">Company Name</p>
@@ -284,19 +285,19 @@
                      </p>
                      <div class="clients__stars">
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Image" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Image" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Image" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Image" />
                         </button>
                         <button class="clients__star">
-                           <img src="img/star.svg" alt="Картинка" />
+                           <img src="img/star.svg" alt="Image" />
                         </button>
                      </div>
                   </div>
@@ -319,7 +320,7 @@
             <div class="news__cards cards">
                <div class="cards__card card">
                   <div class="card__up">
-                     <picture><source srcset="img/cardup-img1.webp" type="image/webp"><img class="card__image" src="img/cardup-img1.png" alt="Картинка" /></picture>
+                     <picture><source srcset="img/cardup-img1.webp" type="image/webp"><img class="card__image" src="img/cardup-img1.png" alt="Image" /></picture>
                      <p class="card__what">Social Media</p>
                   </div>
                   <div class="card__info">
@@ -329,12 +330,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim
                         urna adipiscing praesent velit viverra sit semper lorem.
                      </div>
-                     <div class="card__read"><a href="#">Read now</a></div>
+                     <div class="card__read"><a href="#Read now">Read now</a></div>
                   </div>
                </div>
                <div class="cards__card card">
                   <div class="card__up">
-                     <picture><source srcset="img/cardup-img2.webp" type="image/webp"><img class="card__image" src="img/cardup-img2.png" alt="Картинка" /></picture>
+                     <picture><source srcset="img/cardup-img2.webp" type="image/webp"><img class="card__image" src="img/cardup-img2.png" alt="Image" /></picture>
                      <p class="card__what">SEO</p>
                   </div>
                   <div class="card__info">
@@ -346,12 +347,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim
                         urna adipiscing praesent velit viverra sit semper lorem.
                      </div>
-                     <div class="card__read"><a href="#">Read now</a></div>
+                     <div class="card__read"><a href="#Read now">Read now</a></div>
                   </div>
                </div>
                <div class="cards__card card">
                   <div class="card__up">
-                     <picture><source srcset="img/cardup-img3.webp" type="image/webp"><img class="card__image" src="img/cardup-img3.png" alt="Картинка" /></picture>
+                     <picture><source srcset="img/cardup-img3.webp" type="image/webp"><img class="card__image" src="img/cardup-img3.png" alt="Image" /></picture>
                      <p class="card__what">Strategy</p>
                   </div>
                   <div class="card__info">
@@ -361,7 +362,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim
                         urna adipiscing praesent velit viverra sit semper lorem.
                      </div>
-                     <div class="card__read"><a href="#">Read now</a></div>
+                     <div class="card__read"><a href="#Read now">Read now</a></div>
                   </div>
                </div>
             </div>
@@ -376,8 +377,8 @@
                </p>
             </div>
             <div class="form__buttons">
-               <a class="form__button button" href="#">Our services</a>
-               <a class="form__button button button--gray" href="#">Contact us</a>
+               <a class="form__button button" href="#Our services">Our services</a>
+               <a class="form__button button button--gray" href="#Contact us">Contact us</a>
             </div>
          </section>
       </div>
@@ -387,45 +388,45 @@
    <div class="container">
       <div class="footer__holder">
          <div class="footer__main">
-            <div class="footer__growfy growfy">
-               <div class="growfy__name name">
-                  <img class="name__logo" src="img/logo.svg" alt="">
-                  <a href="/main" class="name__text">Growfy</a>
+            <div class="footer__info info">
+               <div class="info__name">
+                  <img class="info__logo" src="img/logo.svg" alt="Logo">
+                  <a href="#main" class="info__title">Growfy</a>
                </div>
-               <p class="growfy__info">Growfy is a template highly suitable for modern marketing agencies, digital
+               <p class="info__text">Growfy is a template highly suitable for modern marketing agencies, digital
                   studios,
                   startups and businesses. The design is made in the dark style, which makes the site memorable and you
                   can
                   easily adapt it to your brand.</p>
-               <ul class="growfy__sochial sochial">
-                  <li class="sochial__image"><a href="#"><img src="img/linkedin.svg" alt=""></a></li>
-                  <li class="sochial__image"><a href="#"><img src="img/twitter.svg" alt=""></a></li>
-                  <li class="sochial__image"><a href="#"><img src="img/facebook.svg" alt=""></a></li>
-                  <li class="sochial__image"><a href="#"><img src="img/youtube.svg" alt=""></a></li>
-                  <li class="sochial__image"><a href="#"><img src="img/instagram.svg" alt=""></a></li>
+               <ul class="info__sochial">
+                  <li class="info__img"><a href="#linkedin"><img src="img/linkedin.svg" alt="linkedin"></a></li>
+                  <li class="info__img"><a href="#twitter"><img src="img/twitter.svg" alt="twitter"></a></li>
+                  <li class="info__img"><a href="#facebook"><img src="img/facebook.svg" alt="facebook"></a></li>
+                  <li class="info__img"><a href="#youtube"><img src="img/youtube.svg" alt="youtube"></a></li>
+                  <li class="info__img"><a href="#instagram"><img src="img/instagram.svg" alt="instagram"></a></li>
                </ul>
             </div>
             <div class="footer__page">
                <div class="footer__pages pages">
                   <ul class="pages__bar">
                      <li class="pages__text title">Pages</li>
-                     <li class="pages__text"><a href="#">Home</a></li>
-                     <li class="pages__text"><a href="#">About</a></li>
-                     <li class="pages__text"><a href="#">Services</a></li>
-                     <li class="pages__text"><a href="#">Packages</a></li>
-                     <li class="pages__text"><a href="#">Blog</a></li>
-                     <li class="pages__text"><a href="#">Contact</a></li>
+                     <li class="pages__text"><a href="#Home">Home</a></li>
+                     <li class="pages__text"><a href="#About">About</a></li>
+                     <li class="pages__text"><a href="#Services">Services</a></li>
+                     <li class="pages__text"><a href="#Packages">Packages</a></li>
+                     <li class="pages__text"><a href="#Blog">Blog</a></li>
+                     <li class="pages__text"><a href="#Contact">Contact</a></li>
                   </ul>
                </div>
                <div class="footer__upages upages">
                   <ul class="upages__bar">
                      <li class="upages__text title">Utility pages</li>
-                     <li class="upages__text"><a href="#">Instructions</a></li>
-                     <li class="upages__text"><a href="#">Style guide</a></li>
-                     <li class="upages__text"><a href="#">Licenses</a></li>
-                     <li class="upages__text"><a href="#">Changelog</a></li>
-                     <li class="upages__text"><a href="#">404 Not found</a></li>
-                     <li class="upages__text"><a href="#">Password protected</a></li>
+                     <li class="upages__text"><a href="#Instructions">Instructions</a></li>
+                     <li class="upages__text"><a href="#Style guide">Style guide</a></li>
+                     <li class="upages__text"><a href="#Licenses">Licenses</a></li>
+                     <li class="upages__text"><a href="#Changelog">Changelog</a></li>
+                     <li class="upages__text"><a href="#404 Not found">404 Not found</a></li>
+                     <li class="upages__text"><a href="#Password protected">Password protected</a></li>
                   </ul>
                </div>
             </div>
@@ -442,7 +443,7 @@
       </div>
    </div>
 </footer>
-   <script src="js/style.min.js?_v=20231224162445"></script>
+   <script src="/js/style.min.js?_v=20240101200220"></script>
 </body>
 
 </html>
