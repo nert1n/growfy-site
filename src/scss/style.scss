@@ -4,6 +4,7 @@
 @import url(/css/base/footer.css);
 @import "./other/mixin";
 
+<<<<<<< HEAD
 * {
    font-family: 'Poppins', sans-serif;
 }
@@ -14,10 +15,39 @@ body {
    font-weight: 300;
 }
 
+=======
+body {
+   background-color: #0D0D11;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #FFFFFF;
+   font-weight: 300;
+   height: 150vh;
+   font-family: 'Poppins', sans-serif;
+   margin-top: 0px;
+}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
 .container {
    width: 90%;
    max-width: 1280px;
    margin: 0 auto;
+}
+
+<<<<<<< HEAD
+.title {
+   color: #FFFFFF;
+   font-weight: 500;
+   @include adaptiv-font(50, 38);
+   line-height: 61px;
+}
+
+=======
+
+.sochial {
+   &__image:not(:first-child) {
+      margin-left: 16px;
+   }
 }
 
 .title {
@@ -27,6 +57,7 @@ body {
    line-height: 61px;
 }
 
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
 .short-title {
    font-weight: 400;
    @include adaptiv-font(32, 26);
@@ -56,6 +87,11 @@ body {
    padding: 11px 19px;
 }
 
+<<<<<<< HEAD
+=======
+.input {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
 .button {
    background-color: #3D96F4;
    color: #FFFFFF;
@@ -80,6 +116,32 @@ body {
    }
 }
 
+<<<<<<< HEAD
+=======
+.name {
+   z-index: 2;
+   display: flex;
+   align-items: center;
+
+   &__logo {
+      margin-right: 10px;
+   }
+
+   &__text {
+      color: #FFFFFF;
+      font-weight: 600;
+      @include adaptiv-font(28, 19);
+      transition: color 0.2s linear;
+
+      &:hover {
+         color: #dbdbdb;
+      }
+   }
+}
+
+.icon {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
 .first {
    display: flex;
    justify-content: space-between;
@@ -101,6 +163,11 @@ body {
       margin-bottom: 28px;
    }
 
+<<<<<<< HEAD
+=======
+   &__subtitle {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
    &__buttons {
       margin-top: 33px;
    }
@@ -114,6 +181,13 @@ body {
       display: flex;
    }
 
+<<<<<<< HEAD
+=======
+   &__left {}
+
+   .first__right {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
    .left {
       display: block;
       width: 242px;
@@ -161,6 +235,11 @@ body {
       display: flex;
       justify-content: space-between;
    }
+<<<<<<< HEAD
+=======
+
+   &__image {}
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
 }
 
 .servises {
@@ -186,6 +265,11 @@ body {
       margin-bottom: 33px;
    }
 
+<<<<<<< HEAD
+=======
+   &__button {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
    &__columnes {
       display: flex;
       margin-left: 50px;
@@ -199,6 +283,11 @@ body {
       margin-bottom: 48px;
    }
 
+<<<<<<< HEAD
+=======
+   &__columns {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
    .column {
       background-color: #81818b10;
       border-radius: 20px;
@@ -219,6 +308,11 @@ body {
          line-height: 27px;
          margin-bottom: 10px;
       }
+<<<<<<< HEAD
+=======
+
+      &__subtitle {}
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
    }
 }
 
@@ -238,6 +332,11 @@ body {
       bottom: 0;
    }
 
+<<<<<<< HEAD
+=======
+   &__big {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
    &__small {
       display: flex;
       height: max-content;
@@ -322,6 +421,11 @@ body {
       margin-bottom: 32px;
    }
 
+<<<<<<< HEAD
+=======
+   &__subtitle {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
    &__image {
       margin-left: 20px;
    }
@@ -345,6 +449,11 @@ body {
       margin-bottom: 12px;
    }
 
+<<<<<<< HEAD
+=======
+   &__subtitle {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
    &__button {
       position: absolute;
       height: max-content;
@@ -374,6 +483,11 @@ body {
       margin-right: 25px;
    }
 
+<<<<<<< HEAD
+=======
+   &__text {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
    &__title {
       font-weight: 400;
       @include adaptiv-font(32, 23);
@@ -385,6 +499,11 @@ body {
       margin-bottom: 35px;
    }
 
+<<<<<<< HEAD
+=======
+   &__stars {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
    &__star {
       background-color: rgba(255, 255, 255, 0);
    }
@@ -400,6 +519,11 @@ body {
          margin-right: 16px;
       }
 
+<<<<<<< HEAD
+=======
+      &__text {}
+
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
       &__name {
          margin-bottom: 7px;
       }
@@ -805,6 +929,11 @@ body {
             line-height: 27px;
             margin-bottom: 10px;
          }
+<<<<<<< HEAD
+=======
+
+         &__subtitle {}
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
       }
    }
 
@@ -933,4 +1062,8 @@ body {
    .servises__left {
       margin-bottom: 100px;
    }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c57fb44ca1d89da177eb1b1da5a0775f67eb0b5d
