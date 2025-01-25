@@ -6,11 +6,10 @@
 
 /build
 /dist
-/gulp
 
 .gitignore
 .gitattributes
-.gulpfile.js
+.idea
 
 .DS_Store
 .env.local
